@@ -1,11 +1,14 @@
 ﻿using KodaStore.Application.DTOs;
+using KodaStore.Application.Security;
 using KodaStore.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KodaStore.Api.Controllers;
 
 [ApiController]
 [Route("api/v1/products")]
+[Authorize(Roles = AppRoles.Admin)]
 public sealed class ProductController : ControllerBase
 {
     private readonly IProductService _service;
@@ -16,6 +19,7 @@ public sealed class ProductController : ControllerBase
     }
 
     // GET /api/v1/products
+    [AllowAnonymous]
     [HttpGet]
     [ProducesResponseType(
         typeof(IReadOnlyList<ProductResponse>),
@@ -30,6 +34,7 @@ public sealed class ProductController : ControllerBase
     }
 
     // GET /api/v1/products/PR001
+    [AllowAnonymous]
     [HttpGet("{productCode}")]
     [ProducesResponseType(
         typeof(ProductResponse),

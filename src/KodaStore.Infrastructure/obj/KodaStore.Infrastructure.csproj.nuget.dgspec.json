@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj": {}
+    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj": {
+    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj",
         "projectName": "KodaStore.Application",
-        "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj",
+        "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj",
         "packagesPath": "C:\\Users\\User01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Application\\obj\\",
+        "outputPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User01\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj"
+              "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj"
               }
             }
           }
@@ -343,14 +343,14 @@
         }
       }
     },
-    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj": {
+    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj",
         "projectName": "KodaStore.Domain",
-        "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj",
+        "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj",
         "packagesPath": "C:\\Users\\User01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User01\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -678,14 +678,14 @@
         }
       }
     },
-    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj": {
+    "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj",
         "projectName": "KodaStore.Infrastructure",
-        "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\KodaStore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\User01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User01\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -701,11 +701,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj": {
-                "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj"
+              "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj": {
+                "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Application\\KodaStore.Application.csproj"
               },
-              "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 5\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj"
+              "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\User01\\Documents\\_DATA D\\Batch 1\\Example\\WEEK 7\\DOTNET2_Day 3\\src\\KodaStore.Domain\\KodaStore.Domain.csproj"
               }
             }
           }

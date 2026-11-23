@@ -114,8 +114,10 @@ public sealed class AuthController(IAuthService authService, IRefreshTokenServic
         }
 
         var email = User.FindFirst(JwtRegisteredClaimNames.Email)?.Value ?? string.Empty;
-
-        var response = new CurrentUserResponse(userId, email);
+        var roles = User.FindAll("role")
+            .Select(claim => claim.Value)
+            .ToArray();
+        var response = new CurrentUserResponse(userId, email, roles);
 
         return Ok(response);
     }

@@ -5,9 +5,9 @@ POST {{baseUrl}}/api/v1/auth/register
 Content-Type: application/json
 
 {
-    "email": "limit@gmail.com",
+    "email": "admin_example@gmail.com",
     "password": "Qwe123!!",
-    "displayName": "Budi Sasonto"
+    "displayName": "Admin Budi"
 }
 
 ### Login

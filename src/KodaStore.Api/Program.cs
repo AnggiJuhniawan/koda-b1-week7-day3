@@ -4,8 +4,10 @@ using KodaStore.Api.Middleware;
 using KodaStore.Application.Services;
 using KodaStore.Infrastructure;
 using KodaStore.Infrastructure.Identity;
+using KodaStore.Infrastructure.Seeding;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.IdentityModel.Tokens;
 
@@ -94,7 +96,6 @@ builder.Services.AddCors(option =>
         .AllowAnyHeader()
         .AllowAnyMethod()
         .AllowCredentials();
-
     });
 });
 
@@ -195,6 +196,21 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    using var scope = app.Services.CreateScope();
+
+    var roleManager = scope.ServiceProvider
+        .GetRequiredService<RoleManager<IdentityRole<Guid>>>();
+
+    var userManager = scope.ServiceProvider
+        .GetRequiredService<UserManager<AppUser>>();
+
+    var bootstrapAdminEmail = app.Configuration[
+        "RoleBootstrap:AdminEmail"];
+
+    await RoleSeedData.SeedAsync(
+        roleManager,
+        userManager,
+        bootstrapAdminEmail);
     app.MapOpenApi();
 }
 else
