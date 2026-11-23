@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Threading.RateLimiting;
 using KodaStore.Api.Middleware;
+using KodaStore.Application.Security;
 using KodaStore.Application.Services;
 using KodaStore.Infrastructure;
 using KodaStore.Infrastructure.Identity;
@@ -189,7 +190,20 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             RoleClaimType = "role"
         };
     });
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy(AppPolicies.CanManageCategory, policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireRole(AppRoles.Admin);
+    });
+
+    options.AddPolicy(AppPolicies.CanManageProduct, policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireRole(AppRoles.Admin);
+    });
+});
 
 var app = builder.Build();
 

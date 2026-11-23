@@ -8,8 +8,8 @@ POST {{baseUrl}}/api/v1/auth/login
 Content-Type: application/json
 
 {
-  "email": "budi@example.com",
-  "password": "KodaStore#2026"
+  "email": "budi@gmail.com",
+  "password": "QWErTYU1!"
 }
 
 
@@ -18,7 +18,7 @@ Content-Type: application/json
 GET {{baseUrl}}/api/v1/auth/me
 Accept: application/json
 Authorization: Bearer {{loginCustomer.response.body.$.accessToken}}
-
+header = csrf-token: asdasdqweqwe
 
 ### TEST 3 — LOGIN ADMIN
 
@@ -30,6 +30,26 @@ Content-Type: application/json
   "email": "admin_example@gmail.com",
   "password": "Qwe123!!"
 }
+
+### PRODUCT GET
+GET {{baseUrl}}/api/v1/products
+Accept: application/json
+
+### Product POST
+POST {{baseUrl}}/api/v1/products
+Authorization: Bearer {{loginAdmin.response.body.accessToken}}
+Content-Type: application/json
+
+{
+  "productCode": "PC0013",
+  "name": "Teest",
+  "price": 10,
+  "category": "testieng"
+}
+
+
+
+
 
 
 ### TEST 4 — PERIKSA ROLE ADMIN DARI JWT

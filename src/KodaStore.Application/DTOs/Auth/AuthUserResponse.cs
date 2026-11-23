@@ -4,5 +4,5 @@ public sealed record AuthUserResponse(
     Guid Id,
     string Email,
     string DisplayName,
-    IReadOnlyList<string> Roles
+    IReadOnlyList<string> Roles // ["Admin"] \\ ["Customer"]
 );

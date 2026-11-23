@@ -3,10 +3,13 @@ using KodaStore.Application.DTOs;
 using KodaStore.Application.Services;
 using KodaStore.Api.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using KodaStore.Application.Security;
 
 namespace KodaStore.Api.Controllers;
 
 [Route("catalog")]
+[Authorize(Roles = AppRoles.Admin)]
 public sealed class CatalogController : Controller
 {
     private readonly IProductService _service;
